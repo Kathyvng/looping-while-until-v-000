@@ -1,8 +1,9 @@
-levitation_force = 6
-
-until levitation_force == 6
-  puts "Wingardium Leviosa"
-  levitation_force += 1
+def using_until
+  levitation_force = 6
+    until levitation_force == 6
+      puts "Wingardium Leviosa"
+      levitation_force += 1
+    end
 end
 
-puts "Wingardium Leviosa"
+using_until
